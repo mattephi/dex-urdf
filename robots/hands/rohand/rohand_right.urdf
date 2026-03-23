@@ -56,7 +56,7 @@
     <parent link="base_link" />
     <child link="if_proximal_link" />
     <axis xyz="-0.082428 0.99278 0.087177" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
   </joint>
   <link name="if_distal_link">
     <inertial>
@@ -85,7 +85,7 @@
     <parent link="if_proximal_link" />
     <child link="if_distal_link" />
     <axis xyz="-0.082428 0.99278 0.087177" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
     <mimic joint="if_proximal_link" multiplier="0.667" offset="0" />
   </joint>
   <link name="if_tip" />
@@ -123,7 +123,7 @@
     <parent link="base_link" />
     <child link="mf_proximal_link" />
     <axis xyz="-0.013244 0.99991 -4.2699E-05" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
   </joint>
   <link name="mf_distal_link">
     <inertial>
@@ -152,7 +152,7 @@
     <parent link="mf_proximal_link" />
     <child link="mf_distal_link" />
     <axis xyz="-0.013244 0.99991 -2.1055E-05" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
     <mimic joint="mf_proximal_link" multiplier="0.667" offset="0" />
   </joint>
   <link name="mf_tip" />
@@ -190,7 +190,7 @@
     <parent link="base_link" />
     <child link="rf_proximal_link" />
     <axis xyz="0.05658 0.9984 -2.102E-05" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
   </joint>
   <link name="rf_distal_link">
     <inertial>
@@ -219,7 +219,7 @@
     <parent link="rf_proximal_link" />
     <child link="rf_distal_link" />
     <axis xyz="0.05658 0.9984 -2.102E-05" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
     <mimic joint="rf_proximal_link" multiplier="0.667" offset="0" />
   </joint>
   <link name="rf_tip" />
@@ -257,7 +257,7 @@
     <parent link="base_link" />
     <child link="lf_proximal_link" />
     <axis xyz="0.117591058209323 0.989234457465869 -0.0871064359930968" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
   </joint>
   <link name="lf_distal_link">
     <inertial>
@@ -286,7 +286,7 @@
     <parent link="lf_proximal_link" />
     <child link="lf_distal_link" />
     <axis xyz="0.11759 0.98923 -0.087106" />
-    <limit lower="-1.57" upper="1.57" effort="0" velocity="0" />
+    <limit lower="-1.57" upper="0" effort="0" velocity="0" />
     <mimic joint="lf_proximal_link" multiplier="0.667" offset="0" />
   </joint>
   <link name="lf_tip" />
