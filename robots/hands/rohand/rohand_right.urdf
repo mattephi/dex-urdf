@@ -353,7 +353,7 @@
     <parent link="th_root_link" />
     <child link="th_proximal_link" />
     <axis xyz="-0.21699 -0.032029 0.97565" />
-    <limit lower="0" upper="1.0" effort="0" velocity="0" />
+    <limit lower="-0.5" upper="1.0" effort="0" velocity="0" />
   </joint>
   <link name="th_distal_link">
     <inertial>
@@ -382,7 +382,7 @@
     <parent link="th_proximal_link" />
     <child link="th_distal_link" />
     <axis xyz="-0.21698 0.032029 0.97565" />
-    <limit lower="0" upper="0.7" effort="0" velocity="0" />
+    <limit lower="-0.35" upper="0.7" effort="0" velocity="0" />
     <mimic joint="th_proximal_link" multiplier="0.667" offset="0" />
   </joint>
   <link name="th_tip" />
